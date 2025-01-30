@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {
-      "module": "ESNext",
-      "target": "ES6",
-      "checkJs": true,
-      "baseUrl": ".",
-      "paths": {
-        "*": ["src/*"]
-      }
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules"]
-  }
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES6",
+    "checkJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./*"]
+    }
+  },
+  "include": ["./**/*.js"],
+  "exclude": ["node_modules"]
+}

@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(cors(corsOptions))
 
 //User Routes
-app.use('api/user',UserRoutes)
+app.use('/api/user',UserRoutes)
 
 connectDB()
 
